@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophie AI - Enterprise AI Platform by ManpowerGroup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+                </div>
+                <span class="logo-text">Sophie<span class="text-primary">AI</span></span>
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#platform">Platform</a>
+                <a href="#capabilities">Capabilities</a>
+                <a href="#use-cases">Use Cases</a>
+                <a href="#benefits">Benefits</a>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="btn btn-ghost">Documentation</button>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                <svg class="close-icon hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+        </div>
+
+        <div class="mobile-nav hidden" id="mobileNav">
+            <div class="container">
+                <div class="mobile-nav-links">
+                    <a href="#platform">Platform</a>
+                    <a href="#capabilities">Capabilities</a>
+                    <a href="#use-cases">Use Cases</a>
+                    <a href="#benefits">Benefits</a>
+                </div>
+                <div class="mobile-nav-buttons">
+                    <button class="btn btn-outline w-full">Documentation</button>
+                    <button class="btn btn-primary w-full">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-bg">
+                <div class="hero-gradient"></div>
+            </div>
+            <div class="grid-pattern"></div>
+            
+            <div class="container hero-content">
+                <div class="hero-inner fade-up">
+                    <!-- Badge -->
+                    <div class="badge badge-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
+                        <span>Enterprise AI Platform by ManpowerGroup</span>
+                    </div>
+
+                    <!-- Headline -->
+                    <h1 class="hero-title">
+                        The Enterprise AI Engine
+                        <span class="gradient-text"> Powering Workforce Solutions</span>
+                    </h1>
+
+                    <!-- Subheadline -->
+                    <p class="hero-subtitle">
+                        Sophie Enterprise AI Platform is your centralized hub for building, 
+                        deploying, and scaling AI solutions with enterprise-grade security, 
+                        governance, and compliance built in.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="hero-buttons">
+                        <button class="btn btn-hero">
+                            Explore Platform
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                        <button class="btn btn-hero-outline">View Documentation</button>
+                    </div>
+
+                    <!-- Trust Indicators -->
+                    <div class="trust-indicators">
+                        <div class="trust-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+                            <span>EU AI Act Compliant</span>
+                        </div>
+                        <div class="trust-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                            <span>Multi-Region Deployment</span>
+                        </div>
+                        <div class="trust-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
+                            <span>145+ LLM Models</span>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="stats-grid">
+                        <div class="stat-card glass-card">
+                            <div class="stat-value">145+</div>
+                            <div class="stat-label">Language Models</div>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <div class="stat-value">99%</div>
+                            <div class="stat-label">Accuracy Rate</div>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <div class="stat-value">10x</div>
+                            <div class="stat-label">Faster Processing</div>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <div class="stat-value">2</div>
+                            <div class="stat-label">Global Regions</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-fade"></div>
+        </section>
+
+        <!-- Platform Section -->
+        <section class="section section-alt" id="platform">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <div class="badge badge-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+                        Platform Components
+                    </div>
+                    <h2 class="section-title">
+                        Sophie AI
+                        <span class="gradient-text"> Services</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        A comprehensive suite of AI-powered services designed to transform 
+                        workforce management and talent operations.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card fade-up">
+                        <div class="service-glow glow-1"></div>
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+                        </div>
+                        <h3 class="service-title">Sophie Ask</h3>
+                        <p class="service-desc">Intelligent query and insight generation for instant answers</p>
+                    </div>
+                    <div class="service-card fade-up" style="animation-delay: 0.15s">
+                        <div class="service-glow glow-2"></div>
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                        </div>
+                        <h3 class="service-title">Sophie Spend</h3>
+                        <p class="service-desc">Workforce intelligence and planning modules</p>
+                    </div>
+                    <div class="service-card fade-up" style="animation-delay: 0.3s">
+                        <div class="service-glow glow-1"></div>
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+                        </div>
+                        <h3 class="service-title">Recommendation Engine</h3>
+                        <p class="service-desc">Advanced AI matching for talent and opportunities</p>
+                    </div>
+                </div>
+
+                <div class="infrastructure-card glass-card fade-up">
+                    <h3 class="infrastructure-title">Data Infrastructure</h3>
+                    <div class="infrastructure-grid">
+                        <div class="infrastructure-item">
+                            <div class="infrastructure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+                            </div>
+                            <h4>Comprehensive Data Models</h4>
+                            <p>Supporting talent intelligence with real-time processing</p>
+                        </div>
+                        <div class="infrastructure-item">
+                            <div class="infrastructure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+                            </div>
+                            <h4>Voice & NLP</h4>
+                            <p>Voice synthesis and natural language processing capabilities</p>
+                        </div>
+                        <div class="infrastructure-item">
+                            <div class="infrastructure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                            </div>
+                            <h4>Computer Vision</h4>
+                            <p>Document processing and visual intelligence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Capabilities Section -->
+        <section class="section" id="capabilities">
+            <div class="dot-pattern"></div>
+            <div class="container">
+                <div class="section-header fade-up">
+                    <div class="badge badge-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg>
+                        Core Capabilities
+                    </div>
+                    <h2 class="section-title">
+                        Built for Enterprise
+                        <span class="gradient-text"> AI Excellence</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        A comprehensive AI ecosystem designed to accelerate innovation while 
+                        maintaining the highest standards of security and governance.
+                    </p>
+                </div>
+
+                <div class="capabilities-grid">
+                    <div class="capability-card glass-card fade-up">
+                        <div class="capability-header">
+                            <div class="capability-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg>
+                            </div>
+                            <h3>AI Model Management & MLOps</h3>
+                        </div>
+                        <p>Pre-built training, deployment, and inference pipelines with managed endpoint deployment for seamless model serving.</p>
+                        <div class="feature-tags">
+                            <span class="tag">145+ LLM Models</span>
+                            <span class="tag">Auto-scaling Endpoints</span>
+                            <span class="tag">Custom Fine-tuning</span>
+                        </div>
+                    </div>
+
+                    <div class="capability-card glass-card fade-up" style="animation-delay: 0.15s">
+                        <div class="capability-header">
+                            <div class="capability-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/></svg>
+                            </div>
+                            <h3>Enterprise-Grade Infrastructure</h3>
+                        </div>
+                        <p>Azure-based resource groups with US and Europe availability, scalable compute and GPU resources.</p>
+                        <div class="feature-tags">
+                            <span class="tag">Multi-Region</span>
+                            <span class="tag">GPU Resources</span>
+                            <span class="tag">Consumption-Based Pricing</span>
+                        </div>
+                    </div>
+
+                    <div class="capability-card glass-card fade-up" style="animation-delay: 0.3s">
+                        <div class="capability-header">
+                            <div class="capability-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                            </div>
+                            <h3>Governance & Access Control</h3>
+                        </div>
+                        <p>Microsoft-recommended persona-based access with clear role separation and comprehensive audit trails.</p>
+                        <div class="feature-tags">
+                            <span class="tag">Role-Based Access</span>
+                            <span class="tag">Audit Trails</span>
+                            <span class="tag">Compliance Monitoring</span>
+                        </div>
+                    </div>
+
+                    <div class="capability-card glass-card fade-up" style="animation-delay: 0.45s">
+                        <div class="capability-header">
+                            <div class="capability-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-5"/><path d="M9 8V2"/><path d="M15 8V2"/><path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"/></svg>
+                            </div>
+                            <h3>Multi-Platform Integration</h3>
+                        </div>
+                        <p>Seamless integration with existing systems through API-first architecture enabling cross-functional connectivity.</p>
+                        <div class="feature-tags">
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">Snowflake Integration</span>
+                            <span class="tag">Enterprise Apps</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="additional-capabilities glass-card fade-up">
+                    <div class="additional-cap-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg>
+                        <span>GenAI & Agentic</span>
+                    </div>
+                    <div class="additional-cap-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+                        <span>Data Intelligence</span>
+                    </div>
+                    <div class="additional-cap-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+                        <span>Cloud Native</span>
+                    </div>
+                    <div class="additional-cap-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="8" x="3" y="3" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect width="8" height="8" x="13" y="13" rx="2"/></svg>
+                        <span>MLOps Pipelines</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases Section -->
+        <section class="section" id="use-cases">
+            <div class="grid-pattern"></div>
+            <div class="container">
+                <div class="section-header fade-up">
+                    <div class="badge badge-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                        Use Cases
+                    </div>
+                    <h2 class="section-title">
+                        Real-World
+                        <span class="gradient-text"> Applications</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        From talent intelligence to operational automation, Sophie AI Platform 
+                        delivers measurable impact across your organization.
+                    </p>
+                </div>
+
+                <div class="use-cases-grid">
+                    <!-- Talent Intelligence -->
+                    <div class="use-case-category fade-up">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <h3>Talent Intelligence</h3>
+                        </div>
+                        <div class="use-case-items">
+                            <div class="use-case-item">
+                                <div class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                                </div>
+                                <div>
+                                    <h4>Candidate-to-Job Matching</h4>
+                                    <p>Semantic search capabilities for precise talent matching</p>
+                                </div>
+                            </div>
+                            <div class="use-case-item">
+                                <div class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                                </div>
+                                <div>
+                                    <h4>Skills Assessment</h4>
+                                    <p>AI-powered profile analysis and skills evaluation</p>
+                                </div>
+                            </div>
+                            <div class="use-case-item">
+                                <div class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                                </div>
+                                <div>
+                                    <h4>Opportunity Forecasting</h4>
+                                    <p>Real-time labor market insights with 99% accuracy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Operational Automation -->
+                    <div class="use-case-category fade-up" style="animation-delay: 0.2s">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+                            </div>
+                            <h3>Operational Automation</h3>
+                        </div>
+                        <div class="use-case-items">
+                            <div class="use-case-item">
+                                <div class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                </div>
+                                <div>
+                                    <h4>Voice-Enabled Support</h4>
+                                    <p>Automated password reset and support workflows</p>
+                                </div>
+                            </div>
+                            <div class="use-case-item">
+                                <div class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                                </div>
+                                <div>
+                                    <h4>Document Intelligence</h4>
+                                    <p>Invoice processing and document automation</p>
+                                </div>
+                            </div>
+                            <div class="use-case-item">
+                                <div class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                </div>
+                                <div>
+                                    <h4>Ticket Enrichment</h4>
+                                    <p>Automated classification and prioritization</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Communication & Engagement -->
+                    <div class="use-case-category fade-up" style="animation-delay: 0.4s">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+                            </div>
+                            <h3>Communication & Engagement</h3>
+                        </div>
+                        <div class="use-case-items">
+                            <div class="use-case-item">
+                                <div class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                </div>
+                                <div>
+                                    <h4>AI Email Generation</h4>
+                                    <p>Brand-compliant response generation</p>
+                                </div>
+                            </div>
+                            <div class="use-case-item">
+                                <div class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                </div>
+                                <div>
+                                    <h4>Call Transcription</h4>
+                                    <p>Real-time transcription and summarization</p>
+                                </div>
+                            </div>
+                            <div class="use-case-item">
+                                <div class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+                                </div>
+                                <div>
+                                    <h4>Multi-Channel Support</h4>
+                                    <p>Email, chat, and voice integration</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="section section-alt" id="benefits">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <div class="badge badge-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                        Enterprise Benefits
+                    </div>
+                    <h2 class="section-title">
+                        Why Choose
+                        <span class="gradient-text"> Sophie AI</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Transform your AI initiatives with enterprise-grade capabilities 
+                        that deliver real business value.
+                    </p>
+                </div>
+
+                <div class="benefits-grid">
+                    <div class="benefit-card fade-up">
+                        <div class="benefit-glow"></div>
+                        <div class="benefit-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+                        </div>
+                        <div class="benefit-highlight">10x Faster</div>
+                        <h3 class="benefit-title">Speed to Market</h3>
+                        <p class="benefit-desc">Rapid AI solution deployment through standardized templates. Reduce development time from months to weeks.</p>
+                    </div>
+
+                    <div class="benefit-card fade-up" style="animation-delay: 0.1s">
+                        <div class="benefit-glow"></div>
+                        <div class="benefit-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2h0V5z"/><path d="M2 9v1c0 1.1.9 2 2 2h1"/><path d="M16 11h0"/></svg>
+                        </div>
+                        <div class="benefit-highlight">40% Savings</div>
+                        <h3 class="benefit-title">Cost Optimization</h3>
+                        <p class="benefit-desc">Consumption-based pricing ensuring cost efficiency. Shared infrastructure reducing per-project costs.</p>
+                    </div>
+
+                    <div class="benefit-card fade-up" style="animation-delay: 0.2s">
+                        <div class="benefit-glow"></div>
+                        <div class="benefit-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+                        </div>
+                        <div class="benefit-highlight">100% Compliant</div>
+                        <h3 class="benefit-title">Risk Management</h3>
+                        <p class="benefit-desc">EU AI Act compliance preparation with model cards. Centralized governance preventing shadow AI.</p>
+                    </div>
+
+                    <div class="benefit-card fade-up" style="animation-delay: 0.3s">
+                        <div class="benefit-glow"></div>
+                        <div class="benefit-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                        </div>
+                        <div class="benefit-highlight">Unlimited Scale</div>
+                        <h3 class="benefit-title">Scalability</h3>
+                        <p class="benefit-desc">Platform designed for enterprise scale with automatic scaling based on consumption needs.</p>
+                    </div>
+                </div>
+
+                <div class="sub-benefits glass-card fade-up">
+                    <h3 class="sub-benefits-title">What Enterprise AI Platform Solves For</h3>
+                    <div class="sub-benefits-grid">
+                        <div class="sub-benefit-item">
+                            <div class="sub-benefit-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </div>
+                            <div>
+                                <strong>Weeks, Not Months</strong>
+                                <span>From concept to production</span>
+                            </div>
+                        </div>
+                        <div class="sub-benefit-item">
+                            <div class="sub-benefit-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg>
+                            </div>
+                            <div>
+                                <strong>Unified Components</strong>
+                                <span>Reusable across projects</span>
+                            </div>
+                        </div>
+                        <div class="sub-benefit-item">
+                            <div class="sub-benefit-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>
+                            </div>
+                            <div>
+                                <strong>Enterprise Compliance</strong>
+                                <span>GDPR & AI Act ready</span>
+                            </div>
+                        </div>
+                        <div class="sub-benefit-item">
+                            <div class="sub-benefit-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+                            </div>
+                            <div>
+                                <strong>Innovation Hub</strong>
+                                <span>Safe experimentation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section cta-section">
+            <div class="grid-pattern"></div>
+            <div class="cta-glow cta-glow-left"></div>
+            <div class="cta-glow cta-glow-right"></div>
+            
+            <div class="container">
+                <div class="cta-content fade-up">
+                    <div class="badge badge-primary glow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+                        <span>Ready to Transform Your AI Journey?</span>
+                    </div>
+
+                    <h2 class="cta-title">
+                        Start Building with
+                        <span class="gradient-text"> Sophie AI</span>
+                    </h2>
+
+                    <p class="cta-subtitle">
+                        Join the enterprise AI revolution. Get started with Sophie AI Platform 
+                        and unlock the full potential of AI-powered workforce solutions.
+                    </p>
+
+                    <div class="cta-buttons">
+                        <button class="btn btn-hero">
+                            Request Access
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                        <button class="btn btn-hero-outline">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                            View Documentation
+                        </button>
+                    </div>
+
+                    <div class="cta-support glass-card">
+                        <div class="support-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <div>
+                            <strong>Enterprise Support Available</strong>
+                            <span>Managed operations through dedicated DevOps team</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+                        </div>
+                        <span class="logo-text">Sophie<span class="text-primary">AI</span></span>
+                    </a>
+                    <p class="footer-desc">
+                        Sophie Enterprise AI Platform is ManpowerGroup's comprehensive, 
+                        governed AI infrastructure serving as the centralized hub for all 
+                        artificial intelligence initiatives.
+                    </p>
+                    <p class="footer-company">A ManpowerGroup Company</p>
+                </div>
+
+                <!-- Platform Links -->
+                <div class="footer-links">
+                    <h4>Platform</h4>
+                    <ul>
+                        <li><a href="#platform">Overview</a></li>
+                        <li><a href="#capabilities">Capabilities</a></li>
+                        <li><a href="#use-cases">Use Cases</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources Links -->
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Model Cards</a></li>
+                        <li><a href="#">Best Practices</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Links -->
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li>
+                            <a href="#">About ManpowerGroup
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Careers
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                            </a>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 ManpowerGroup. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Security</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
